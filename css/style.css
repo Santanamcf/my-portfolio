@@ -1,0 +1,32 @@
+#header-portfolio {
+    color: lightskyblue;
+    margin-top: 10px;
+   /* border: solid aquamarine;*/
+    background-color: cornflowerblue;
+    width: 50%;
+}
+
+.page-top {
+    background-color: grey;
+    border: solid aquamarine;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    justify-content: space-evenly;  
+    color: lightskyblue;
+}
+
+div {
+    box-sizing: 100% 100%;
+}
+
+.image1 {
+    display: block;
+    width: 100vw;
+    height: 100vh; 
+    object-fit: cover; 
+    
+}
