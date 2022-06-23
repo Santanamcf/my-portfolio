@@ -1,32 +1,186 @@
 #header-portfolio {
     color: lightskyblue;
     margin-top: 10px;
-   /* border: solid aquamarine;*/
     background-color: cornflowerblue;
     width: 50%;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
 }
 
 .page-top {
     background-color: grey;
     border: solid aquamarine;
+    border-width: thick;
+    width: 100%;
+    margin-bottom: 5px;
 }
 
 ul {
     list-style-type: none;
     display: flex;
     justify-content: end;
-    justify-content: space-evenly;  
+    justify-content: space-evenly;
     color: lightskyblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-div {
-    box-sizing: 100% 100%;
+
+
+
+#imagebeach {
+    width: 100%;
+    height: 600px;
+    border: solid aquamarine;
+    border-width: thick;
 }
 
-.image1 {
-    display: block;
-    width: 100vw;
-    height: 100vh; 
-    object-fit: cover; 
-    
+#about-me-section {
+    border: solid aquamarine;
+    border-width: thick;
+    background-color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightskyblue;
+    width: 100%;
+}
+
+
+#about-me-header {
+    margin-top: 10px;
+}
+
+
+#work-header {
+    border: solid aquamarine; 
+    color: lightskyblue;
+    background-color: grey; 
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calc-box-section {
+    border: solid aquamarine;
+    border-width: thick;
+    background-color: grey;
+    width: 50%;
+    text-align: center;
+    padding: 80px;
+}
+
+.calc-box-section:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    box-shadow: 4px black;
+
+}
+
+#calc-box-header {
+    color: lightskyblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#calc-box-caption {
+   /* border: solid aquamarine; */
+    color: lightskyblue;
+    background-color: grey;
+}
+
+.wallbox-section {
+    border: solid aquamarine;
+    border-width: thick;
+    background-color: grey;
+    width: 50%;
+    text-align: center;
+    padding: 80px;
+}
+
+.wallbox-section :hover {
+    opacity: 0.5;
+    cursor: pointer;
+    box-shadow: 4px black;
+}
+
+#wallbox-header {
+    color: lightskyblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#wallbox-caption {
+    color: lightskyblue;
+    background-color: grey;
+}
+
+.pastel-section {
+    border: solid aquamarine;
+    border-width: thick;
+    background-color: grey;
+    width: 50%;
+    text-align: center;
+    padding: 80px;
+}
+
+.pastel-section :hover {
+    opacity: 0.5;
+    cursor: pointer;
+    box-shadow: 4px black;
+}
+
+#pastel-header {
+    color: lightskyblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#pastel-caption {
+    color: lightskyblue;
+    background-color: grey;
+}
+
+.run-section {
+    border: solid aquamarine;
+    border-width: thick;
+    background-color: grey;
+    width: 50%;
+    text-align: center;
+    padding: 80px;
+}
+
+.run-section :hover {
+    opacity: 0.5;
+    cursor: pointer;
+    box-shadow: 4px black;
+}
+
+#run-header {
+    color: lightskyblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#run-caption {
+    color: lightskyblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.surf-section {
+    border: solid aquamarine;
+    border-width: thick;
+    background-color: grey;
+    width: 50%;
+    text-align: center;
+    padding: 80px;
+}
+
+.surf-section :hover {
+    opacity: 0.5;
+    cursor: pointer;
+    box-shadow: 4px black;
+}
+
+#surf-header {
+    color: lightskyblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#surf-caption {
+    color: lightskyblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
